@@ -1,0 +1,17 @@
+{
+    "name": "libtta",
+    "description": "True Audio (TTA) decoder",
+    "filters":["ttadec"],
+    "help": "This filter decodes True Audio (TTA) lossless files using libtta.",
+    "support": [
+        "audio"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libtta.accessor",
+    "filter_source":{
+        "ttadec" : "dec_tta.c"
+    },
+    "extension":{
+      "tta" : "audio"
+    },
+    "licence_required":false
+}
