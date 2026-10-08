@@ -13,5 +13,6 @@
     "extension":{
       "tta" : "audio"
     },
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_minimal_1"]
 }
