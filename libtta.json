@@ -1,6 +1,6 @@
 {
     "name": "libtta",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "True Audio (TTA) decoder",
     "filters":["ttadec"],
     "help": "This filter decodes True Audio (TTA) lossless files using libtta.",
@@ -14,7 +14,7 @@
     "extension":{
       "tta" : "audio"
     },
-    "using": ["solver_minimal_1"],
+    "using": ["solver_minimal_1", "solver_1"],
     "patents": {
         "status": "royalty-free",
         "note": "True Audio",
